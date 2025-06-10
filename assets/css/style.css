@@ -19,7 +19,7 @@ a { color:blue; text-decoration: none;}
     gap: 3rem;
     grid-template-areas: "sidebar main anchors";
     grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
-    padding-left: 1rem;
+    padding-left: 0.5rem;
     padding-right: 1rem;
 }
 .footer {
@@ -35,4 +35,23 @@ a { color:blue; text-decoration: none;}
 }
 figure {
     text-align: center;
+}
+
+.logo
+{
+    padding: 0.5rem;
+}
+
+p {
+    line-height: 1.5;
+    margin: 0.5rem 0;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 24px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0.5rem 0;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
